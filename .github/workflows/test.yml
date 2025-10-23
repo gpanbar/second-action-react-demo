@@ -7,7 +7,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install NodejS
-        uses: actions/install-node@v3
+        uses: actions/setup-node@v3
         with: 
           node-veriosn: 18
       - name: Install Dependencies
